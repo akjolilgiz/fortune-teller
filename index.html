@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+  <title>Fortune Teller</title>
+</head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Fortune Teller</h2>
+      </div>
+      <form id="FortuneTeller">
+        <div class="form-group">
+          <p>Unlucky signs</p>
+          <input type="checkbox" name="unlucky-signs" value="-1">Seeing a black cat.<br>
+          <input type="checkbox" name="unlucky-signs" value="-1">Stepping on a poop.<br>
+          <input type="checkbox" name="unlucky-signs" value="-1">Walking under a ladder.<br>
+          <input type="checkbox" name="unlucky-signs" value="-1">Opening an umbrella inside of a building.<br>
+          <input type="checkbox" name="unlucky-signs" value="-1">Stubbing your toe.<br>
+
+        </div>
+        <div class="form-group">
+          <p>Lucky signs</p>
+          <input type="checkbox" name="lucky-signs" value="1">Finding a four-leaf clover.<br>
+          <input type="checkbox" name="lucky-signs" value="1">Plugging in a usb from first try.<br>
+          <input type="checkbox" name="lucky-signs" value="1">Finding $20 on the ground.<br>
+          <input type="checkbox" name="lucky-signs" value="1">Flipping a bottle.<br>
+          <input type="checkbox" name="lucky-signs" value="1">Eating a pho.<br>
+        </div>
+
+       <button type="submit">Submit Survey</button>
+      </form>
+      <div id="remedy">
+        <ul>
+          <li class = "zero">You are boring.</li>
+          <li class = "abovezero">You are a lucky person.</li>
+          <li class = "belowzero">You will go to hell.</li>
+        </ul>
+        <!-- <p value="Drink Water."> Drink Water.</p>
+        <p value="Eat healthy.">Eat healthy.</p>
+        <p value="Go to gym.">Go to gym.</p>
+        <p value="Meditate.">Meditate.</p>
+        <p value="Take frequent breaks..">Take frequent breaks.</p>
+        <p>Take frequent water.</p>
+        <p>Take frequent food.</p>
+        <p>Take frequent sleep.</p> -->
+      </div>
+      <div id="result">
+
+      </div>
+    </div>
+  </body>
+</html>
